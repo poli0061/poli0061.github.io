@@ -45,9 +45,8 @@ body{
     nav ul a,
 nav ul a:link,
 nav ul a:visited {
-    background-color: orange;
 /* horizontal vertical blur spread color*/
-    box-shadow: -2px 2px 4px 2px black;
+    
 }
 
 nav ul a:hover,
@@ -77,7 +76,7 @@ dl ul li:nth-child(3) {
 }
 h2{
     position: absolute;
-top: 200px;
+top: 300px;
 left: 0;
 width: 100%;
 }
@@ -94,3 +93,48 @@ h2 span.spacer {
     float: left;
     margin: 7px 0 7px 7px;
 }
+a {
+    text-transform: uppercase;
+}
+    a {
+        color: black;
+    }
+    .manu-main {
+        list-style: none;
+margin: 40px 0 5px;
+padding: 25px 0 5px;
+text-align: center;
+background: white;
+    }
+    .menu-main li {display: inline-block;}
+    .menu-main li:after {
+        content: "I";
+        color: #606060;
+        display: inline-block;
+        vertical-align:top;
+    }
+    .menu-main li:last-child:after {content: none;}
+    .menu-main a {
+        text-decoration: none;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        letter-spacing: 2px;
+        position:relative;
+        padding-bottom: 20px;
+        margin: 0 34px 0 30px;
+        font-size: 30px;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: color .2s;
+    }
+    .menu-main a:after {
+        content:"";
+        position: absolute;
+        height: 4px;
+        top: auto;
+        right: 50%;
+        bottom: -5px;
+        left: 50%;
+        background: #feb386;
+        transition: .8s;
+    }
+    
