@@ -137,4 +137,15 @@ background: white;
         background: #feb386;
         transition: .8s;
     }
+    .menu-main li {
+        margin: 0;
+        padding: 0;
+    }
+    .menu-main {
+        text-align: center;
+    }
+    .menu-main li {
+        display: inline-block;
+        text-align: center;
+    }
     
