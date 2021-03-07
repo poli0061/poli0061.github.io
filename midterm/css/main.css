@@ -108,8 +108,8 @@ background: white;
     }
     .menu-main li {display: inline-block;}
     .menu-main li:after {
-        content: "I";
-        color: #606060;
+        content: "|";
+        color: black;
         display: inline-block;
         vertical-align:top;
     }
