@@ -16,6 +16,7 @@
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <input type="text" placeholder="Search..">
         </nav>
         <div class="container">
             <header class="masthead">
@@ -79,7 +80,46 @@
            <section class="contact">
                <h1>Contact Us</h1>
            <h2>Send us a message</h2>
-
+           <form action="thanks.html" method="get">
+            <div>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Nika Poliakova" value="Mrs.">
+</div>
+<div>
+            <label for="youremail">Email</label>
+            <input type="email" id="youremail" name="youremail" required>
+</div>
+<div>
+<label for="message">Message</label>
+<textarea name="message" id="message"></textarea>
+</div>
+<button type="submit">Send</button>
+</form>
+<section class="Hours">
+    <table>
+    <h2>Hours of operation</h2>
+    <thead>
+        <tr>
+            <th>Days</th>
+            <th>Hours</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Monday - Friday</td>
+            <td>9 AM - 6 PM</td>
+        </tr>
+        <tr>
+            <td>Saturday - Sunday</td>
+            <td>Closed</td>
+        </tr>
+    </tbody>
+    </table>
+</section>
+<section class="location">
+    <h2>Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45940159.29903222!2d-111.61351680000003!3d45.3495228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07221f5e4d63%3A0x27a0d6c35d18d7ee!2sAlgonquin%20College%20Building%20P!5e0!3m2!1sru!2sru!4v1617268072186!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
 
 
 
