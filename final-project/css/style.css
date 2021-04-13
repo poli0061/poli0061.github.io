@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS RESET*/
+
+/*Custom CSS*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+h1,h2,h3{
+    font-weight: bold;
+    /* top left-right bottom*/
+    margin: 1rem 0 0.5rem;
+
+}
+
+h1{
+    font-size: 5.063rem;
+}
+h2{
+    font-size: 3.375rem;
+}
+h3{
+    font-size: 2.375rem;
+}
+p {
+    margin: 1rem 0;
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+.container{
+    padding: 1rem;
+}
+/*Header*/
+.desktop-logo{
+    display: none;
+}
+
+.mobile-logo{
+    max-width: 150px;
+}
+.mobile-logo{
+  background-color: #c68d00 url("../images/logo.png")no-repeat center bottom;
+}
+.nav{
+    background-color: rgb(34, 31, 31);
+}
+.masthead{
+    background-color: #c68d00;
+    padding: 1em 0;
+ 
+}
+/*Main Nav*/
+.nav-list {
+    text-align: center;
+    }
+    .nav-list a{
+        text-decoration:none;
+        color: inherit;
+        padding: 1em 0;
+        display: block;
+    }
+    .current{
+        background-color: #c68d00;
+    color:black;
+    }
+    
+    .d1 input{
+        width: 100%;
+        height:42px;
+        padding-left:10px;
+border-radius:2px;
+outline:none;
+    }
+    .container-2{
+        width:300px;
+        vertical-align:middle;
+        white-space:nowrap;
+        position:relative;
+    }
+    .container-2 input#search{
+        width:50px;
+        height:50px;
+        background:#c68d00;
+    font-size:10pt;
+    float:right;
+    }
+    .banner{
+        height: 600px;
+        background-color: grey url("../images/main-banner.jpg")no-repeat center bottom;
+        background-image: ("../images/main-banner.jpg");
+        background-size: cover;
+    }
+    .banner h1{
+        margin:0;
+    padding-top: 250px;
+    text-align: center;
+    }
+    .banner h1{
+        color:white;
+    }
+    .p1{
+color:white;
+    }
