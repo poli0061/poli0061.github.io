@@ -254,13 +254,14 @@ color:#fff;
     .bob1{
         text-align: center;
     }
+   
     table{
         width:100%;
         height:50%;
         border-collapse: collapse;
     }
     td,th{
-        padding:3px;
+        padding:1em;
         border:1px solid black;
     }
     th{
@@ -279,12 +280,6 @@ color:#fff;
    
 
    @media screen and (min-width: 800px){
-    .services{
-        max-width: 50%;
-    }
-    .services1{
-        max-width:30%;
-    }
     .mobile-logo{
         display: none;
     }
@@ -325,12 +320,33 @@ color:#fff;
 .navigation{
     background-color:rgb(34, 31, 31);
 }
-   .services{
-    max-width: 50%;
-    padding: 1rem;
-    font-size: 1.5rem;
+   .serv-list{
+       display:grid;
+       grid-template-columns: repeat(6, 1fr);
+       grid-template-areas:
+       "h h h h h h"
+       "digital digital digital marketing marketing marketing"
+       "video video web web print print";
+       grid-gap: 1em;
+   }
+   .serv-list h2{
+grid-area: h;
+   }
+   .serv-list div:nth-child(2){
+       grid-area: digital;
+   }
+   .serv-list div:nth-child(3){
+    grid-area: marketing;
 }
-.services .services1{
-    display: flex;
-    flex-wrap: wrap;
+.serv-list div:nth-child(4){
+    grid-area: video;
 }
+.serv-list div:nth-child(5){
+    grid-area: web;
+}
+.serv-list div:nth-child(6){
+    grid-area: print;
+}
+    .services div div{
+        margin: 0;
+    }
