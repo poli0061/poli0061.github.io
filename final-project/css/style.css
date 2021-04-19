@@ -228,6 +228,24 @@ p {
         display:inline-block;
         font-size:20px;
     }
+    .banner-text{
+        padding:1em;
+    }
+.digital{
+    padding:1em;
+}
+.marketing{
+    padding:1em;
+}
+.video{
+    padding:1em;
+}
+.web{
+    padding:1em;
+}
+.print{
+    padding:1em;
+}
     .vision{
         background: grey url(../images/vision.jpg)no-repeat center bottom;
 padding:1em;
