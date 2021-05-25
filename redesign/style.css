@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&family=Zilla+Slab:ital,wght@1,300&display=swap');
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:14px;
+  box-sizing: border-box;
+}
+/*Navigation part*/
+#nav.nav{
+  width: auto;
+}
+.nav a{
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background-color: burlywood;
+}
+.nav a{
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position:relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+/*"Welcome" part changing background color and font*/
+#home.home {
+background-color: rgb(136, 107, 69);
+font-family:Arial, Helvetica, sans-serif;
+}
+/* "About" part changing background color, font color*/
+#about.about{
+  padding: 100px;
+  background-color:rgb(108, 126, 95);
+}
+h1,h2{
+  font-family: 'Merriweather', serif;
+  color:black;
+}
+#about h2{
+  color: black;
+  text-align: left;
+}
+p{
+font-family:'Zilla Slab', serif;
+  color: black;
+}
+/*"Contact" part changing background color and width*/
+#contact.contact{
+  background-color: rgb(141, 166, 247);
+  font-size: 20px;
+  text-align: center;
+}
+form.contact-form{
+  width: auto;
+}
+/*"Footer" part changing sizes, color*/
+footer{
+  border top: 2px solid  #00ADD8;
+    margin-top: 1.5rem;
+padding: 1.5rem 0;
+  background-color: rgb(223, 183, 226);
+  text-align: center;
+}
+
+  
