@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "poli0061.github.io",
+			"path": "."
+		},
+		{
+			"name": "master-files-landing-page",
+			"path": "../../../master-files-landing-page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "master-files-landing-page",
+		"liveServer.settings.port": 5501
+	}
+}

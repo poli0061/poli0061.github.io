@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS RESET*/
+
+/*Custom CSS*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+h1,h2,h3{
+    font-weight: bold;
+    /* top left-right bottom*/
+    margin: 1rem 0 0.5rem;
+
+}
+
+h1{
+    font-size: 5.063rem;
+}
+h2{
+    font-size: 3.375rem;
+}
+h3{
+    font-size: 2.375rem;
+}
+p {
+    margin: 1rem 0;
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+.container{
+    padding: 1rem;
+}
+/*Header*/
+    .site-logo{
+        width: 100px;
+    }
+.banner{
+    width: 400px;
+    
+}
+.fig{
+    text-align: center;
+}
+.box{
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border: 2px ;
+    border-radius: 10px;
+}
+footer{
+    background-color: yellow;
+}
+ul.hr{
+    margin: 0;
+    padding: 4px;
+}
+ul.hr li{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+p{
+    font-size: 15px;
+}
+.btn1{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(92, 228, 65);
+    border: none;
+    color: black;
+    padding: 10px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.btn2{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(250, 126, 81);
+    border: none;
+    color: white;
+    padding: 5px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.link{
+    color: red;
+}
+
+@media screen and (min-width: 600px){
+    .site-logo{
+        width: 100px;
+    }
+    .banner{
+        width: 500px;
+    }
+    .box{
+        margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border: 2px ;
+    border-radius: 10px;
+    }
+    .btn1{
+        background-color: rgb(92, 228, 65);
+        border: none;
+        color: black;
+        padding: 10px 220px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+@media screen and (min-width: 800px){
+    .site-logo{
+        width: 100px;
+    }
+    .banner{
+        width: 700px;
+    }
+    
