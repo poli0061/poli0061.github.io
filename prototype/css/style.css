@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*CSS RESET*/
+
+/*Custom CSS*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+h1,h2,h3{
+    font-weight: bold;
+    /* top left-right bottom*/
+    margin: 1rem 0 0.5rem;
+
+}
+
+h1{
+    font-size: 5.063rem;
+}
+h2{
+    font-size: 3.375rem;
+}
+h3{
+    font-size: 2.375rem;
+}
+p {
+    margin: 1rem 0;
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+.container{
+    padding: 1rem;
+}
+
+/*Header*/
+
+.desktop-logo{
+    display: none;
+}
+
+.mobile-logo{
+    max-width: 150px;
+}
+.mobile-logo{
+  background-color: #c68d00 url("")no-repeat center bottom;
+}
+.navigation{
+    background-color: rgb(34, 31, 31);
+}
+.masthead{
+    background-color: #c68d00;
+    padding: 1em 0;
+ 
+}
+.navigation-list a{
+    text-decoration: none;
+    text-align: center;
+    padding:1em;
+    display:block;
+    color: white;
+    background-color: rgb(34, 31, 31);
+}
+
+.navigation-list li a:hover{
+    background-color: white;
+    color:rgb(34, 31, 31);
+}
+.navigation-list li a.current{
+    background-color: white;
+    color: rgb(34, 31, 31);
+}
+.navigation-list li:nth-child(1){
+    background-color: white;
+    padding: 1em;
+}
+
+.banner{
+    height: 600px;
+    background: url("../images/birds.jpg")no-repeat center bottom;
+    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.7);
+    background-size: cover;
+   
+
+}
+.banner-text{
+    margin:0;
+padding-top: 40px;
+text-align:center;
+color:white;
+
+}
+
+button{
+    background-color: white;
+    border:rgb(0, 0, 0);
+    color:black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+.mail{
+    text-align: center;
+    color: white;
+    padding-top: 300px;
+}
+.gallery{
+    display: grid;
+grid-template-areas:
+" boy gaming dog"
+"color game snow"
+" birds1 book flower";
+padding:10px;
+margin-top: 40px;
+}
+/*.gallery{
+    text-align: justify;
+    padding: 10px;
+}*/
+.gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body{
+    background-color:rgb(0, 0, 0);
+}
+footer{
+    background-color: white;
+}
+    .thumb{
+    text-align: right;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 800px){
+    .mobile-logo{
+        display: none;
+    }
+    .desktop-logo{
+        display:inline-block;
+        max-width: 150px;
+    }
+
+    /*Main Nav*/
+   .navigation-list{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .navigation-list li{
+       flex:1;
+   }
+   
+.navigation-list a{
+    text-decoration: none;
+    color:white;
+    padding: 1.5em 0;
+    display:block;
+}
+.navigation-list a:hover{
+    background-color:white;
+    color: rgb(34, 31, 31);
+}
+.navigation-list li img{
+ float: left;
+}
+.navigation-list li:nth-child(1){
+ background-color:rgb(34, 31, 31);
+ padding:1px;
+}
+.navigation{
+    background-color:rgb(34, 31, 31);
+}
