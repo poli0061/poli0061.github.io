@@ -136,6 +136,11 @@ p {
    
 
 }
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .banner-text{
     margin:0;
 padding-top: 40px;
@@ -153,8 +158,8 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
 }
+
 .mail{
     text-align: center;
     color: white;
@@ -228,4 +233,4 @@ footer{
 }
 .navigation{
     background-color:rgb(34, 31, 31);
-}
+}}
