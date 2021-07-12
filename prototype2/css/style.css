@@ -87,6 +87,7 @@ p {
 }
 
 /*Header*/
+@media screen and (min-width: 400px){
 .logo{
     max-width: 150px;
 }
@@ -116,16 +117,28 @@ p {
 }
 .banner-text{
     margin:0;
+    
 text-align:center;
 color:white;
 
 }
-
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+h2{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+p{
+    font-family:'Noto Sans KR', sans-serif;
+}
+a{
+    text-decoration: none;
+}
 .navigation{
     background-color: rgb(34, 31, 31);
 }
 .masthead{
-    background-color: #c68d00;
+    background-color: #ffffff;
     padding: 1em 0;
  
 }
@@ -151,14 +164,8 @@ color:white;
     padding: 1em;
 }
 
-.banner-text{
-    margin:0;
-    padding-left:200px;
-text-align:center;
-color:white;
 
-}
-/*Цвет кнопки при наведении изменить*/
+
 .btn{
     background-color: white;
     border:rgb(0, 0, 0);
@@ -169,10 +176,14 @@ color:white;
     display: inline-block;
     font-size: 16px;
     margin-top:200px;
+    font-family:'Noto Sans KR', sans-serif;
 }
-.btn a:hover{
-    background-color:black;
-    color: white;
+.btn:hover{
+background-color:rgb(34, 31, 31);
+color:white;
+}
+p{
+    font-family:'Noto Sans KR', sans-serif;;
 }
 
 .mail{
@@ -180,7 +191,7 @@ color:white;
     justify-content:center;
     align-items:center;
     text-align: center;
-    padding-left:200px;
+  
     position:absolute;
     color: white;
     
@@ -194,13 +205,13 @@ footer{
 .gallery{
     display: grid;
 grid-template-areas:
-" boy gaming dog"
+"boy gaming dog"
 "color game snow"
-" birds1 book flower";
+"birds1 book flower";
 padding:1.5em;
 border: 1px;
-
 }
+
 .gallery img{
     width: 90%;
     height:90%;
@@ -217,7 +228,13 @@ footer{
     background-color: black;
     color: white;
 }
+.copy{
+    text-align: left;
+}
     .thumb{
+        display:flex;
+        justify-content:center;
+    align-items:center;
     text-align: right;
     margin-top: 10px;
 }
@@ -234,132 +251,13 @@ footer{
     padding:0;
 }
 .body1{
-    background: url("../images/birds.jpg")no-repeat center bottom;
+    background: url("../images/boy2.jpg")no-repeat center bottom;
     background-size: cover;
     height:auto;
     font-family:'Times New Roman', Times, serif;
 }
 .container{
-    width:400px;
-    height:200px;
-    background: #fff;
-    margin: 50px auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-    box-sizing: border-box;
-    padding: 40px;
-}
-.container p{
-    text-transform:uppercase;
-    text-align:center;
-    font-size:45px;
-    margin-bottom: 20px;
-    color: #000000;
-    letter-spacing: 1px;
-    border-radius: 5px;
-    outline:none;
-    transform: all 0.5s ease;
-}
-.input, .msg .area{
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 25px;
-    border: 2px solid #e9eaea;
-    font-size: 14px;
-    border-radius:5px;
-    outline: none;
-    transition: all 0.5 ease;
-}
-.login .input{
-    width: 48px;
-    float: left;
-    margin-right: 4%;
-
-}
-.login .input:last-child{
-    margin-right:0;
-}
-.msg .area{
-    height:200px;
-}
-.btn1{
-width: 250px;
-background: #000000;
-height: 50px;
-text-align: center;
-line-height: 50px;
-color: #fff;
-text-transform: uppercase;
-margin: 0 auto;
-cursor: pointer;
-border-radius: 5px;
-}
-.input:focus,
-.msg .area:focus{
-    border: 2px solid #000000;
-}
-
-
-
-
-@media screen and (min-width: 800px){
-    .logo{
-        display: inline-block;
-        max-width: 150px;
-    }
-
-    /*Main Nav*/
-   .navigation-list{
-       display:flex;
-       justify-content: center;
-       align-items: center;
-   }
-   .navigation-list li{
-       flex:1;
-   }
-   
-.navigation-list a{
-    text-decoration: none;
-    color:white;
-    padding: 1.5em 0;
-    display:block;
-}
-.navigation-list a:hover{
-    background-color:white;
-    color: rgb(34, 31, 31);
-}
-.navigation-list li img{
- float: left;
-}
-.navigation-list li:nth-child(1){
- background-color:rgb(34, 31, 31);
- padding:1px;
-}
-.navigation{
-    background-color:rgb(34, 31, 31);
-}}
-
-
-/*ABOUT*/
-.about{
-    width:30%;
-    height:30%;
-     float:right;
-     margin: 15px 150px 0px 15px;
- }
- /*CONTACT*/
-*{
-    margin:0;
-    padding:0;
-}
-.body1{
-    background: url("../images/birds.jpg")no-repeat center bottom;
-    background-size: cover;
-    height:auto;
-    font-family:'Times New Roman', Times, serif;
-}
-.container{
-    width:800px;
+    width:200px;
     height:600px;
     background: #fff;
     margin: 50px auto;
@@ -378,6 +276,150 @@ border-radius: 5px;
     outline:none;
     transform: all 0.5s ease;
 }
+.input, .msg .input{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius:5px;
+    outline: none;
+    transition: all 0.5 ease;
+}
+.login .input{
+    width: 48px;
+    float: left;
+    margin-right: 4%;
+
+}
+.login .input:last-child{
+    margin-right:0;
+}
+.msg .input{
+    height:80px;
+}
+.btn1{
+width: 250px;
+background: #000000;
+height: 50px;
+text-align: center;
+line-height: 50px;
+color: #fff;
+text-transform: uppercase;
+margin: 0 auto;
+cursor: pointer;
+border-radius: 5px;
+font-family:'Noto Sans KR', sans-serif;
+}
+.btn1:hover{
+    background-color:rgb(34, 31, 31);
+    color:white;
+}
+.input:focus,
+.msg .area:focus{
+    border: 2px solid #000000;
+}
+
+h2{
+    color:white;
+}
+p{
+    color: white;
+    font-size:18px;
+}
+
+@media screen and (min-width: 800px){
+    .logo{
+        display: inline-block;
+        max-width: 150px;
+    }
+
+    /*Main Nav*/
+    .navigation-list{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation-list li{
+        flex:1;
+    }
+    
+ .navigation-list a{
+     text-decoration: none;
+     color:white;
+     padding: 1.5em 0;
+     display:block;
+ }
+ .navigation-list a:hover{
+     background-color:white;
+     color: rgb(34, 31, 31);
+ }
+ .navigation-list li img{
+  float: left;
+ }
+ .navigation-list li:nth-child(1){
+  background-color:rgb(34, 31, 31);
+  padding:1px;
+ }
+ .navigation{
+     background-color:rgb(34, 31, 31);
+ }}
+/*PORTFOLIO*/
+.gallery{
+    display: grid;
+grid-template-areas:
+" boy gaming dog"
+"color game snow"
+" birds1 book flower";
+padding:1.5em;
+border: 1px;
+
+}
+.gallery img{
+    width: 90%;
+    height:90%;
+    object-fit: cover;
+}
+
+/*ABOUT*/
+.about{
+    width:30%;
+    height:30%;
+     float:right;
+     margin: 15px 150px 0px 15px;
+ }
+ /*CONTACT*/
+*{
+    margin:0;
+    padding:0;
+}
+.body1{
+    background: url("../images/boy2.jpg")no-repeat center bottom;
+    background-size: cover;
+    height:auto;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    width:600px;
+    height:800px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 40px;
+}
+.container p{
+    text-transform:uppercase;
+    text-align:center;
+    font-size:45px;
+    margin-bottom: 20px;
+    color: #000000;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    outline:none;
+    transform: all 0.5s ease;
+}
 .input, .msg .area{
     width: 100%;
     padding: 20px;
@@ -416,4 +458,4 @@ border-radius: 5px;
 .input:focus,
 .msg .area:focus{
     border: 2px solid #000000;
-}
+}}
