@@ -228,13 +228,7 @@ footer{
     background-color: black;
     color: white;
 }
-.copy{
-    text-align: left;
-}
     .thumb{
-        display:flex;
-        justify-content:center;
-    align-items:center;
     text-align: right;
     margin-top: 10px;
 }
