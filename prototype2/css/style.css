@@ -87,7 +87,7 @@ p {
 }
 
 /*Header*/
-@media screen and (min-width: 400px){
+
 .logo{
     max-width: 150px;
 }
@@ -97,9 +97,7 @@ p {
 .banner{
     height: 600px;
     background: url("../images/birds.jpg")no-repeat center bottom;
-    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.7);
     background-size: cover;
-   
 
 }
 .banner{
@@ -117,7 +115,6 @@ p {
 }
 .banner-text{
     margin:0;
-    
 text-align:center;
 color:white;
 
@@ -183,7 +180,7 @@ background-color:rgb(34, 31, 31);
 color:white;
 }
 p{
-    font-family:'Noto Sans KR', sans-serif;;
+    font-family:'Noto Sans KR', sans-serif;
 }
 
 .mail{
@@ -201,6 +198,7 @@ footer{
     width:100%;
     height: 10px;
 }
+
 /*PORTFOLIO*/
 .gallery{
     display: grid;
@@ -235,9 +233,15 @@ footer{
 
 /*ABOUT*/
 .about{
-   
     float:right;
     margin: 0px 0px 0px 5px;
+}
+.text{
+    font-size: 8px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 20%;
+  margin:30px;
 }
 /*CONTACT*/
 *{
@@ -324,6 +328,9 @@ p{
 }
 
 @media screen and (min-width: 800px){
+    html{
+        font-size:  18px;
+    }
     .logo{
         display: inline-block;
         max-width: 150px;
@@ -358,7 +365,10 @@ p{
  }
  .navigation{
      background-color:rgb(34, 31, 31);
- }}
+ }
+ .banner{
+    background: url("../images/boy2.jpg")no-repeat center bottom;
+}
 /*PORTFOLIO*/
 .gallery{
     display: grid;
@@ -383,6 +393,14 @@ border: 1px;
      float:right;
      margin: 15px 150px 0px 15px;
  }
+ .text{
+    display: flex;
+    font-size:16px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 50%;
+  margin:60px;
+}
  /*CONTACT*/
 *{
     margin:0;
