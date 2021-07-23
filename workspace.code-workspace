@@ -1,12 +1,19 @@
 {
 	"folders": [
 		{
+			"name": "bootstrap-dashdemo",
+			"path": "..\\..\\..\\bootstrap-dashdemo"
+		},
+		{
 			"name": "poli0061.github.io",
 			"path": "."
 		},
 		{
 			"name": "master-files-landing-page",
-			"path": "../../../master-files-landing-page"
+			"path": "..\\..\\..\\master-files-landing-page"
+		},
+		{
+			"path": "..\\..\\..\\bootstrap-dashdemo\\ac-challenge"
 		}
 	],
 	"settings": {
