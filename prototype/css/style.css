@@ -230,6 +230,7 @@ p {
     background-color: #7BC8D3;
 }
 
+
 /*Banner*/
 .mobile-banner-img {
     display: block;
@@ -285,7 +286,54 @@ a {
     font-weight: 700;
     font-style: italic;
 }
+/*Products*/
+.pict{
+    display: grid;
+grid-template-areas:
+"first second"
+"third forth"
+"fifth sixth"
+"seventh eighth";
+padding:1.5em;
+border: 1px;
+}
 
+.pict img{
+    width: 80%;
+    height:70%;
+    object-fit: cover;
+}
+.intro{
+    align-items: center;
+}
+.pict li{
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.pic p{
+    text-align:center;
+}
+
+/* Footer */
+
+footer {
+    background-color:#D97AAB;
+    margin-top: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+footer .copy {
+    text-align: right;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    color: #00add8;
+}
 @media screen and (min-width: 800px) {
     .logo {
         max-width: 100px;
@@ -345,6 +393,24 @@ a {
         background-size: cover;
         height: 1000px;
     }
+    .pict{
+        display: grid;
+    grid-template-areas:
+    "first second third"
+    "forth fifth sixth"
+    "seventh seventh eighth";
+    padding:1.5em;
+    border: 1px;
+    }
+    
+    .pict img{
+        width: 70%;
+        height:60%;
+        object-fit: cover;
+        
+    }
+    
 }
+
 
 
