@@ -231,6 +231,9 @@ p {
 }
 
 
+.main-nav{
+    list-style: none;
+}
 /*Banner*/
 .mobile-banner-img {
     display: block;
@@ -248,11 +251,9 @@ p {
     background: rgb(255, 255, 255) url("../images/mobile-banner.jpg") no-repeat center fixed;
     background-size: cover;
     height: 400px;
-    margin-top: -20px;
 }
-
 .banner-text {
-    margin: 0;
+    margin-bottom:400px;
     text-align: center;
     color: white;
 }
@@ -285,7 +286,9 @@ a {
     font-family: ff-cocon-pro, sans-serif;
     font-weight: 700;
     font-style: italic;
+    text-decoration: none;
 }
+
 /*Products*/
 .pict{
     display: grid;
@@ -294,7 +297,7 @@ grid-template-areas:
 "third forth"
 "fifth sixth"
 "seventh eighth";
-padding:1.5em;
+padding: 1.5em;
 border: 1px;
 }
 
@@ -311,10 +314,22 @@ border: 1px;
     font-size: 1rem;
     text-decoration: none;
 }
-.pic p{
+.pict p{
     text-align:center;
 }
-
+.pict{
+    list-style: none;
+}
+.restaraunt{
+    display: none;
+}
+.creator{
+    width: 200px;
+    padding-left: 20px;
+}
+h2{
+    padding-left: 20px;
+}
 /* Footer */
 
 footer {
@@ -323,17 +338,27 @@ footer {
     padding: 1.5rem 0;
 }
 
-footer .copy {
-    text-align: right;
+.footer-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    color: #ffffff
+}
+p.copy-right{
+font-size: 1em;
 }
 
-footer a {
-    color: inherit;
-}
 
-footer a:hover {
-    color: #00add8;
-}
+
+
 @media screen and (min-width: 800px) {
     .logo {
         max-width: 100px;
@@ -384,7 +409,6 @@ footer a:hover {
     .nav-list li:nth-child(1) {
         background-color: rgb(123, 200, 211);
         padding: 0;
-        margin-left: 20px;
     }
 
 
@@ -409,8 +433,29 @@ footer a:hover {
         object-fit: cover;
         
     }
-    
+    .creator{
+        width: 250px;
+        padding-left: 40px;
+    }
+    h2{
+        padding-left: 90px;
+    }
+   /*Footer*/
+   .find{
+       text-align: right;
+   }
+   .link2{
+    text-align: right;
+   }
+   .restaraunt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 600px;
 }
+    }
+
 
 
 
