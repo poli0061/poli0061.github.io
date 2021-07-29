@@ -297,6 +297,7 @@ grid-template-areas:
 "third forth"
 "fifth sixth"
 "seventh eighth";
+grid-template-areas: 150px 150px 150px;
 padding: 1.5em;
 border: 1px;
 }
