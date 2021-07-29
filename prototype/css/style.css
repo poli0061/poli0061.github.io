@@ -332,15 +332,14 @@ h2{
 }
 /* Footer */
 
-footer {
+.footer-menu{
+    padding: 3em 0;
+    box-shadow: 0 0px 10px #ccc;
     background-color:#D97AAB;
-    margin-top: 1.5rem;
-    padding: 1.5rem 0;
 }
-
 .footer-container{
     width: 70%;
-    margin: 0 auto;
+    padding-left: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -356,6 +355,16 @@ p.copy-right{
 font-size: 1em;
 }
 
+a{
+    color: white;
+}
+.about-text{
+    text-align:center;
+    padding-left:10px;
+}
+.text{
+    padding-left: 20px;
+}
 
 
 
@@ -453,6 +462,9 @@ font-size: 1em;
     margin-right: auto;
     width: 90%;
     height: 600px;
+}
+.text{
+    padding-left: 40px;
 }
     }
 
