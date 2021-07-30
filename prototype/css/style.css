@@ -338,7 +338,7 @@ h2{
     box-shadow: 0 0px 10px #ccc;
     background-color:#D97AAB;
 }
-.footer-container{
+.footer-container {
     width: 70%;
     padding-left: 20px;
     display: flex;
@@ -366,6 +366,24 @@ a{
 .text{
     padding-left: 20px;
 }
+/*Connect*/
+.connect{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.connect {
+    height: 180px;
+    background: grey url("../images/connect.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+.connect {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
 
 
 
@@ -467,7 +485,19 @@ a{
 .text{
     padding-left: 40px;
 }
-    }
+/*Connect*/
+.connect {
+    height: 300px;
+    background: grey url("../images/connect.jpg") no-repeat center bottom;
+    background-size: cover;
+}
+.connect {
+    text-align: center;
+    padding-top: 250px;
+    text-transform: uppercase;
+    color: white;
+}
+
 
 
 
