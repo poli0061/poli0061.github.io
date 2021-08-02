@@ -1,10 +1,6 @@
 {
 	"folders": [
 		{
-			"name": "bootstrap-dashdemo",
-			"path": "..\\..\\..\\bootstrap-dashdemo"
-		},
-		{
 			"name": "poli0061.github.io",
 			"path": "."
 		},
@@ -13,11 +9,16 @@
 			"path": "..\\..\\..\\master-files-landing-page"
 		},
 		{
+			"name": "ac-challenge",
 			"path": "..\\..\\..\\bootstrap-dashdemo\\ac-challenge"
+		},
+		{
+			"name": "bootstrap-dashdemo",
+			"path": "..\\..\\..\\bootstrap-dashdemo"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "poli0061.github.io",
+		"liveServer.settings.multiRootWorkspaceName": "bootstrap-dashdemo",
 		"liveServer.settings.port": 5501
 	}
 }
