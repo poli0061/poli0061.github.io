@@ -37,7 +37,7 @@
                </ul>
                </li>
                <li class="nav-item dropdown">
-               <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Customize</a>
+               <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Utilities</a>
                <ul class="dropdown-menu" aria-labbeledby="navbarDropdown">
                    <li><a href="#color" class="dropdown-item">Color</a></li>
                </ul>
@@ -58,6 +58,13 @@
                 <li><a href="#tables" class="dropdown-item">Tables</a></li>
                </ul>
            </li>
+           <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Components</a>
+            <ul class="dropdown-menu" aria-labbeledby="navbarDropdown">
+             <li><a href="#buttons" class="dropdown-item">Buttons</a></li>
+             <li><a href="#card" class="dropdown-item">Card</a></li>
+            </ul>
+        </li>
        </ul>
        </div>
        </nav>
@@ -80,7 +87,7 @@
         Bootstrap was created at Twitter in mid-2010 by @mdo and @fat. Prior to being an open-sourced framework, Bootstrap was known as Twitter Blueprint. A few months into development, Twitter held its first Hack Week and the project exploded as developers of all skill levels jumped in without any external guidance. It served as the style guide for internal tools development at the company for over a year before its public release, and continues to do so today.</p>
     
         <div class="row mt-5">
-            <h2 class="display-3">Customize</h2>
+            <h2 class="display-3">Utilities</h2>
         </div>
         <!--Colors-->
         <div class="row mt-5">
@@ -91,7 +98,7 @@
     <p class="mt-2"><span class="text-secondary">.text-secondary</span>,<span class="text-primary">.text-primary</span>,<span class="text-success">.text-success</span>,<span class="text-danger">.text-danger</span>,<span class="text-dark">.text-dark</span>,
         <span class="text-muted">.text-muted</span>,<span class="text-info">.text-info</span>,<span class="text-light bg-dark">.text-light</span></p>
         <h3>Background</h3>
-        <p class="mt-2"><span class="bg-secondary p-1">bg-secondary</span>, <span class="bg-warning p-1">.bg-warning</span>, <span class="bg-danger p-1">.bg-danger</span>,<span class="bg-info p-1">bg-info</span>, 
+        <p class=" mt-2"><span class="bg-secondary p-1">bg-secondary</span>, <span class="bg-warning p-1">.bg-warning</span>, <span class="bg-danger p-1">.bg-danger</span>,<span class="bg-info p-1">bg-info</span>, 
             <span class="bg-dark p-1 text-white">bg-dark</span>, <span class="bg-success bg-gradient p-1">bg-success</span></p>
             <div class="row mt-5">
                 <h2 class="display-3">Layout</h2>
@@ -100,10 +107,10 @@
                 <div class="row mt-5">
             <h2 id="breakpoints"><strong>Breakpoints</strong></h2>
         
-            <div class="mt-3">
+            <div class="row mt-3">
             <h3>Core concepts</h3>
             </div>
-            <div class="mt-3">
+            <div class="row mt-3">
             <ul>
             <li><strong>Breakpoints are the building blocks of responsive design.</strong></li>
             <li><strong>Use media queries to architect your CSS by breakpoint.</strong></li>
@@ -157,7 +164,7 @@
         <div class="row mt-5">
         <h2 id="containers"><strong>Containers</strong></h2>
         </div>
-        <p class="mt-2">Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.</p>
+        <p class="row mt-2">Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.</p>
         <div class="row mt-3">
             <p>Bootstrap comes with three different containers:</p>
             <ul>
@@ -168,7 +175,7 @@
         </div>
         <h2 id="grid"><strong>Grid</strong></h2>
         <p>Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth explanation for how the grid system comes together.</p>
-        <div class="mt-2">
+        <div class="row mt-2">
         <div class="container">
             <div class="row">
               <div class="col">Column</div>
@@ -180,9 +187,9 @@
     <h2 class="display-3">Content</h2>
 </div>
 <!--Typography-->
-<div class="mt-3"></div>
+<div class="row mt-3"></div>
 <h2 id="typography"><strong>Typography</strong></h2>
-<div class="mt-3"></div>
+<div class="row mt-3"></div>
 
 <h3>Headings</h3>
 <p>All HTML headings,<span class="text-success"> h1</span> through<span class="text-success"> h6</span>, are available.</p>
@@ -204,7 +211,7 @@
 <h1 class="display-6">Display 6</h1>
 </div>
 <!--Images-->
-<div class="mt-3"></div>
+<div class="row mt-3"></div>
 <h2 id="images"><strong>Images</strong></h2>
 <p>Images in Bootstrap are responsive with<span class="text-danger"> .img-fluid. </span></p>
 <img src="./img/grey.jpg" class="img-fluid" alt="img">
@@ -267,7 +274,57 @@
 </tbody>
 </table>
 </div>
+
+   <!--Components-->
+   <div class="row mt-5">
+    <h2 class="display-3">Components</h2>
 </div>
-   
+   <!--Buttons-->
+<div class="row mt-3"></div>
+<h2 id="buttons"><strong>Buttons</strong></h2>
+<p>Bootstrap has different types of buttons</p>
+<p>We can use this colors: .btn-secondary, .btn-primary, .btn-success, .btn-success, .btn-danger, .btn-warning, and etc.</p>
+<p><strong>Example:</strong></p>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<div class="mt-3"></div>
+<p>Also, Bootstrap has another design of buttons: Outline buttons</p>
+<p><strong>Example:</strong></p>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+
+<!--Cards-->
+<div class="row mt-3"></div>
+<h2 id="card"><strong>Card</strong></h2>
+<p>Card is a flexible content container. It contains: images, text, links, header, footer and etc.</p>
+<p>It is easy to change colors of buttons or text not using css</p>
+<div class="d-flex">
+    
+<div class="card" style="width: 25rem;">
+    <img src="./img/grey.jpg" class="card-img-top" alt="img">
+    <div class="card-body">
+      <h5 class="card-title">Card Example</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident non, iure nesciunt esse cupiditate, reprehenderit nobis incidunt sint quaerat quod! Officia ab quidem quas odio quasi sint, dolore ratione!
+      Quae omnis, </p>
+      <a href="#" class="btn btn-primary">Click</a>
+    </div>
+    </div>
+ <div class="px-5">
+  <div class="card" style="width: 13rem;">
+    <img src="./img/grey.jpg"  class="card-img-top" alt="img">
+    <div class="card-body">
+      <h5 class="card-title">Card Example</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident non, iure nesciunt esse cupiditate, reprehenderit nobis incidunt sint quaerat quod! Officia ab quidem quas odio quasi sint, dolore ratione!
+      Quae omnis, </p>
+      <a href="#" class="btn btn-primary">Click</a>
+      </div>
+     </div>
+</div>
   </body>
 </html>
