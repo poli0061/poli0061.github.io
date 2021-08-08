@@ -256,8 +256,30 @@ p {
     margin-bottom:200px;
     text-align: center;
     color: white;
+    font-family: minion-pro-caption, serif;
+    font-weight: 400;
 }
-
+/*Font Design*/
+h2{
+    font-family: ff-cocon-pro,sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+p{
+    font-family: open-sans,sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+.hours{
+    font-family: ff-cocon-pro,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.copy-right{
+    font-family: ff-cocon-pro,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
 /*Button banner*/
 .btn {
     background-color: #7BC8D3;
@@ -280,6 +302,7 @@ h1 {
     font-family: minion-pro-caption, serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 25px;
 }
 
 a {
@@ -339,6 +362,7 @@ h2{
     background-color:#D97AAB;
 }
 .footer-container {
+    display: block;
     width: 70%;
     padding-left: 20px;
     display: flex;
@@ -353,19 +377,32 @@ h2{
     color: #ffffff
 }
 p.copy-right{
-font-size: 1em;
+    font-size: 1em;
+    }
+.fab{
+ padding-top: 0px;
 }
 
 a{
     color: white;
 }
+/*About*/
 .about-text{
     text-align:center;
     padding-left:10px;
 }
-.text{
-    padding-left: 20px;
+
+.about-text2{
+    text-align:center;
+    padding-left:10px;
+    font-family: ff-cocon-pro,sans-serif;
+font-weight: 700;
+font-style: italic;
+color:#7BC8D3;
+border: black;
 }
+
+    
 /*Connect*/
 .connect{
     display: block;
@@ -384,10 +421,95 @@ a{
     color: white;
 }
 
+form{max-width: 320px;
+    margin: 50px auto;
+}
+.feedback-input{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 15px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #7BC8D3;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+.feedback-input:focus{
+    border: 2px solid #7BC8D3;
+}
+textarea{
+    height: 100px;
+    line-height: 100%;
+    resize: vertical;
+   }
+   [type="submit"]{
+       font-family:Arial, Helvetica, sans-serif;
+       width: 100%;
+       background:#7BC8D3;
+       border-radius: 5px;
+       border: 0;
+       cursor: pointer;
+       color: white;
+       font-size: 18px;
+       padding-top:10px;
+       margin-top: -4px;
+       font-weight: 700;
+   }
+   [type="submit"]:hover { background:#7BC8D3; }
+
+   @media screen and (min-width: 800px) {
+       /*Main Nav*/
+.nav-list a {
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    display: block;
+    color: #ffffff;
+    background-color: #7BC8D3;
+}
+
+.nav-list li a:hover {
+    background-color: #ffffff;
+    color: rgb(34, 31, 31);
+}
+
+.nav-list li a.current {
+    background-color: #ffffff;
+    color: rgb(34, 31, 31);
+}
+
+.nav-list li:nth-child(1) {
+    background-color: #ffffff;
+    padding: 1em;
+}
+
+.current {
+    background-color: #7BC8D3;
+}
 
 
+.main-nav{
+    list-style: none;
+}
+.creators{
+display: grid;
+grid-template-areas:
+"creator headchef";
+grid-template-areas: 150px 150px 150px;
+padding: 1.5em;
+border: 1px;
+}
 
-@media screen and (min-width: 800px) {
+h1{
+    font-size: 30px;
+}
+   }
+@media screen and (min-width: 1000px) {
     .logo {
         max-width: 100px;
     }
@@ -497,8 +619,64 @@ a{
     text-transform: uppercase;
     color: white;
 }
+form{max-width: 420px;
+    margin: 50px;
+    padding-left: 250px;
+}
+.feedback-input{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #7BC8D3;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+.feedback-input:focus{
+    border: 2px solid #7BC8D3;
+}
+textarea{
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+   }
+   [type="submit"]{
+       font-family:Arial, Helvetica, sans-serif;
+       width: 100%;
+       background:#7BC8D3;
+       border-radius: 5px;
+       border: 0;
+       cursor: pointer;
+       color: white;
+       font-size: 24px;
+       padding-top:10px;
+       margin-top: -4px;
+       font-weight: 700;
+   }
+   [type="submit"]:hover { background:#7BC8D3; }
 
-
-
-
-
+   .pict i{
+       width: 100%;
+       margin-top: 200px;
+      padding-left: 200px;
+   }
+   /*About*/
+   .creators{
+    display: grid;
+    grid-template-areas:
+    "creator headchef";
+    grid-template-areas: 150px 150px;
+    padding: 1.5em;
+    border: 1px;
+   
+    }
+    h1{
+        font-size: 35px;
+    }
+}
