@@ -299,7 +299,7 @@ font-style: normal;
 }
 
 h1 {
-    font-family: minion-pro-caption, serif;
+    font-family: minion-pro-caption;
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
@@ -354,6 +354,12 @@ border: 1px;
 h2{
     padding-left: 20px;
 }
+.welcome{
+    font-size: 70px;
+}
+p{
+    font-size: 14px;
+}
 /* Footer */
 
 .footer-menu{
@@ -401,8 +407,19 @@ font-style: italic;
 color:#7BC8D3;
 border: black;
 }
+.text{
+    font-family: minion-pro-caption, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+.creators{
+    text-align: center;
+}
 
-    
+
+
 /*Connect*/
 .connect{
     display: block;
@@ -462,6 +479,18 @@ textarea{
    }
    [type="submit"]:hover { background:#7BC8D3; }
 
+  
+.border{
+    border: 3px;
+    border-style: outset;
+    border-color: #D97AAB;
+    padding: 1em;
+}
+.border{
+    text-align: center;
+    margin: 50px auto;
+}
+
    @media screen and (min-width: 800px) {
        /*Main Nav*/
 .nav-list a {
@@ -492,24 +521,35 @@ textarea{
     background-color: #7BC8D3;
 }
 
-
+.welcome{
+    font-size: 80px;
+}
 .main-nav{
     list-style: none;
 }
 .creators{
-display: grid;
-grid-template-areas:
-"creator headchef";
-grid-template-areas: 150px 150px 150px;
-padding: 1.5em;
-border: 1px;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
 
 h1{
     font-size: 30px;
 }
+.border{max-width: 400px;
+    text-align: center;
+    margin: 50px auto;
+}
+.creator{
+    display: block;
+    width: 200px;
+    padding-left: 150px;
+}
+.text{
+    padding-top: 80px;
+    padding-right: 80px;
+}
    }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .logo {
         max-width: 100px;
     }
@@ -583,6 +623,9 @@ h1{
         object-fit: cover;
         
     }
+    .welcome{
+        font-size: 100px;
+    }
     .creator{
         width: 250px;
         padding-left: 40px;
@@ -643,7 +686,7 @@ form{max-width: 420px;
 }
 textarea{
     height: 150px;
-    line-height: 150%;
+    line-height: 100%;
     resize: vertical;
    }
    [type="submit"]{
@@ -652,7 +695,7 @@ textarea{
        background:#7BC8D3;
        border-radius: 5px;
        border: 0;
-       cursor: pointer;
+       cursor:pointer;
        color: white;
        font-size: 24px;
        padding-top:10px;
@@ -660,7 +703,10 @@ textarea{
        font-weight: 700;
    }
    [type="submit"]:hover { background:#7BC8D3; }
-
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
    .pict i{
        width: 100%;
        margin-top: 200px;
@@ -669,14 +715,25 @@ textarea{
    /*About*/
    .creators{
     display: grid;
-    grid-template-areas:
-    "creator headchef";
-    grid-template-areas: 150px 150px;
-    padding: 1.5em;
-    border: 1px;
-   
+    grid-template-columns: 1fr 1fr;
     }
+    .creator{
+        padding-left: 500px;
+    }
+    .text{
+        padding-top: 100px;
+        padding-right: 500px;
+    }
+
     h1{
         font-size: 35px;
+    }
+    .border{max-width: 350px;
+        text-align: center;
+        margin: 200px auto;
+        
+    }
+    p{
+        font-size: 20px;
     }
 }
