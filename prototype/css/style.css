@@ -443,7 +443,7 @@ form{max-width: 320px;
     margin: 50px auto;
 }
 .feedback-input{
-    color: white;
+    color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:500;
     font-size: 15px;
@@ -687,7 +687,7 @@ form{max-width: 420px;
     padding-left: 250px;
 }
 .feedback-input{
-    color: white;
+    color: black;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:500;
     font-size: 18px;
