@@ -722,6 +722,7 @@ textarea{
        margin-top: -4px;
        font-weight: 700;
    }
+   
    [type="submit"]:hover { background:#7BC8D3; }
 .contact{
     display: grid;
@@ -754,7 +755,6 @@ textarea{
     .border{max-width: 350px;
         text-align: center;
         margin: 200px auto;
-        
     }
     p{
         font-size: 20px;
